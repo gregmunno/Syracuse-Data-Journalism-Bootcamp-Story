@@ -26,6 +26,10 @@ html {
   background-color: #00539F;
 }
 
+.quote {
+	color: red;
+}
+
 body {
   width: 600px;
   margin: 0 auto;
@@ -44,5 +48,15 @@ h1 {
 img {
   display: block;
   margin: 0 auto;
+}
+
+
+.quote {
+	color: red;
+}
+
+#mainquote {
+	color: green;
+	boarder: 5px solid black;
 }
 
