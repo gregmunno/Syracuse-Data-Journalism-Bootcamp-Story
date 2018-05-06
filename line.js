@@ -1,4 +1,5 @@
-var svg = d3.select("#dummy-line-chart-container")
+(function() {  
+    var svg = d3.select("#dummy-line-chart-container")
            .append('svg')
            .attr('width', 600)
            .attr('height', 600),
@@ -94,4 +95,4 @@ d3.json("line-data.json", function(error, data) {
       focus.select(".y-hover-line").attr("x2", width + width);
     }
 });
-
+})();
