@@ -1,4 +1,4 @@
-
+(function() { 
 
 var svg = d3.select("#dummy-bubble-chart-container")
             .append("svg")
