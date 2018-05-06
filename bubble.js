@@ -1,4 +1,5 @@
-(function() { 
+(function() {
+  // body...
 
 var svg = d3.select("#dummy-bubble-chart-container")
             .append("svg")
@@ -62,4 +63,5 @@ d3.csv("bubble-data.csv", function(d) {
   node.append("title")
       .text(function(d) { return d.id + "\n" + format(d.value); });
 });
+})();
 
