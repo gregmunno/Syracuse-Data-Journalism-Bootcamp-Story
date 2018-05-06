@@ -3,7 +3,7 @@
 
 <head>
 	<link href="style.css" rel="stylesheet" type="text/css">
-
+	<link rel="stylesheet" type="text/css" href="bubble.css">
 	<title>Data Story</title>
 </head>
 <body>
@@ -15,7 +15,11 @@
 		    on <time pubdate datetime="2018-05-05" title="May 5th, 2018">5/5/2018</time>
 		</div>
 	</header>
-		<img src="images/firefox-icon.png" alt="My test image">
+		<div id="dummy-bubble-chart-container">
+			<h2>Bubble Chart Dummy</h2>
+			<h4>Bubble Deck</h4>
+			
+		</div>
 		<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tristique sapien ac velit varius laoreet. Quisque tincidunt turpis non nisi pellentesque sollicitudin. Praesent vel erat eros. Curabitur tincidunt lorem at ipsum venenatis, in sodales lorem auctor. Integer rhoncus justo et est scelerisque suscipit. Vestibulum in pulvinar odio, in sagittis massa. Donec leo libero, aliquet id auctor eget, convallis et lectus. Fusce non nisl odio. Suspendisse nec mauris rutrum, sodales quam vel, vestibulum dolor. Etiam id enim nisi. Proin suscipit dolor at nunc tincidunt, ac dictum dolor convallis. In nisi magna, faucibus eget mi id, finibus ultrices libero. Fusce vestibulum porta ullamcorper. Vestibulum pretium turpis sem, id cursus erat fermentum sed. Ut ullamcorper eu mi nec maximus.</p>
 
 		<p id="mainquote" class="quote"> "Web development is cool" - Bill Joe Smith </p>
@@ -35,6 +39,8 @@
 		</ul>
 		<p>Read the <a href="https://www.mozilla.org/en-US/about/manifesto/">Mozilla Manifesto</a> to learn even more about the values and principles that guide the pursuit of our mission.</p>
 	</article>
+	<script src="https://d3js.org/d3.v4.min.js"></script>
+ 	<script src="bubble.js"></script>
 </body>
 <script type="text/javascript" src="main.js"></script>
 </html>
